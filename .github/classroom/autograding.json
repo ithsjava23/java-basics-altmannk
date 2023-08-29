@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test G",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test VG",
+      "setup": "",
+      "run": "mvn test -Dtest=PresentationTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
